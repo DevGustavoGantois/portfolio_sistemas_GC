@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export function Navbar() {
     return (
-        <header className="max-w-[1240px] mx-auto p-8 lg:p-0 mt-4">
+        <header className="max-w-[1240px] mx-auto p-8 lg:p-0 lg:mt-4 border-b border-white/15">
             <nav className="hidden lg:flex items-center justify-around mb-[20px]">
                 <ul className="flex items-center lg:gap-[32px]">
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
-                        <Link href="#">
+                        <Link href="#home">
                         Home
                         </Link>
                     </li>
