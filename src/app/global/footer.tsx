@@ -114,6 +114,14 @@ export function Footer() {
                     </li>
                 </ul>
             </nav>
+            <div className="border-t-1 border-white/20 mt-10 mb-6">
+                <div className="flex flex-col lg:flex-row text-center lg:text-start gap-2 items-center justify-between mt-6">
+                    <p className="text-white text-sm lg:text-base">@2025 Todos os Direitos Reservados. <span className="font-medium"> GC Technology</span></p>
+                    <Link className="text-white text-sm lg:text-base transition-all duration-700 hover:scale-[1.1]" href="" target="_blank">
+                    Desenvolvido por @devgustavogantois_ | @ca_.mendes
+                    </Link>
+                </div>
+            </div>
         </footer>
     )
 }
