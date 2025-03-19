@@ -4,7 +4,7 @@ import { carouselTecIconsData } from "./v-data";
 export function CarouselTechs() {
   return (
     <section className="mt-20">
-      <h1 className="text-gray-500 text-center text-sm">
+      <h1 className="text-gray-500 text-center text-sm mb-10">
         Tecnologias que utilizamos para desenvolvimento dos nossos sistemas.
       </h1>
       <div className="overflow-hidden border-blue-500/20 border-1 p-6 lg:p-8 lg:mt-[50px] lg:mb-12 w-full">
