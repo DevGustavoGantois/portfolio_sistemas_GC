@@ -3,6 +3,7 @@ import { HomeHeroData } from "./v-data";
 import { Spotlight } from "@/components/ui/spotlight-new";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { Pretitle } from "@/components/ui/pretitle";
 
 export function HomeHero() {
     return (
@@ -11,15 +12,8 @@ export function HomeHero() {
             <div className="-z-10">
             <Spotlight />
             </div>
-            <div className="flex flex-col items-center">
-                <figure className="p-2 rounded-full border border-white/50 pr-3 mt-32">
-                    <div className="flex items-center justify-center gap-2">
-                    <Globe size={20} className="stroke-[#1D0DB1]" />
-                    <p className="text-base text-white/50">
-                        Crie Sistemas e Robustos
-                    </p>
-                    </div>
-                </figure>
+            <div className="flex flex-col gap-2 items-center">
+                <Pretitle icon={<Globe size={20} className="stroke-[#1D0DB1]" />} pretitle="Crie Sistemas Robustos" />
                 <div className="flex flex-col gap-2">
                     <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#999999] text-4xl lg:text-6xl max-w-[1147px] font-medium text-center mt-2">
                     Desenvolva seu sistema com um código limpo, escalável e de <span className="text-[#1D0DB1]"> alta performance</span>.

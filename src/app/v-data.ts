@@ -40,4 +40,43 @@ export const carouselTecIconsData = [
     {
         icon: "/angular.svg"
     }
-]
+];
+
+export const items = [
+        {
+          title: "Sistemas Robustos",
+          description: "Desenvolvemos e implementamos soluções tecnológicas de alta performance, seguras e escaláveis. Criamos softwares personalizados e otimizamos infraestruturas digitais, garantindo eficiência, estabilidade e proteção contra falhas para empresas que buscam crescer com segurança.",
+          img: "/SistemasRobustosImg.svg"
+        },
+        {
+          title: "Websites",
+          description: "Desenvolvemos websites modernos, responsivos e otimizados, garantindo performance, segurança e experiência intuitiva. Criamos soluções personalizadas para fortalecer a presença digital e impulsionar negócios.",
+          img: "/WebsitesImg.svg"
+        },
+        {
+          title: "Automação",
+          description: "Desenvolvemos soluções de automação para otimizar processos, aumentar a eficiência e reduzir custos. Implementamos tecnologias inteligentes para agilizar operações e melhorar a produtividade.",
+          img: "/AutomacaoImg.svg",
+        },
+        {
+          title: "Criação de APIs",
+          description:
+            "Desenvolvemos APIs seguras e escaláveis para integrar sistemas, facilitar a comunicação entre plataformas e otimizar processos, garantindo alto desempenho e confiabilidade.",
+          img: "/CriacaoAPIsImg.svg"
+        },
+        {
+          title: "Design de Criativos",
+          description: "Criamos designs impactantes e estratégicos para fortalecer marcas, engajar públicos e transmitir mensagens com criatividade e identidade visual marcante.",
+          img: "/DesignCriativosImg.svg"
+        },
+        {
+          title: "Designs de interface (UI/UX)",
+          description: "Desenvolvemos interfaces intuitivas e experiências imersivas, unindo design e usabilidade para criar produtos digitais funcionais, atraentes e focados no usuário.",
+          img: "/DesignInterfacesImg.svg"
+        },
+        {
+          title: "Desenvolvimento de SaaS",
+          description: "Desenvolvemos soluções SaaS escaláveis e seguras, oferecendo softwares na nuvem com alta performance, usabilidade intuitiva e integrações eficientes para otimizar negócios.",
+          img: "/DevSaasImg.svg"
+        },
+      ];
