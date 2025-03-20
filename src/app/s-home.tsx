@@ -3,7 +3,7 @@ import { HomeHeroData } from "./v-data";
 import { Spotlight } from "@/components/ui/spotlight-new";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Pretitle } from "@/components/ui/pretitle";
+import { Pretitle } from "@/components/pretitle";
 
 export function HomeHero() {
     return (

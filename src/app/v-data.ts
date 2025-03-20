@@ -80,3 +80,26 @@ export const items = [
           img: "/DevSaasImg.svg"
         },
       ];
+
+export const accordionSolutionsData = [
+  {
+    title: "Eficiência e Automação",
+    description: "Redução de custos e aumento da produtividade com processos automatizados."
+  },
+  {
+    title: "Sistemas Escaláveis",
+    description: "Lorem Ipsum si amet..."
+  },
+  {
+    title: "Conversão e Experiência do Usuário",
+    description: "Lorem Ipsum si amet..."
+  },
+  {
+    title: "Integração e Conectividade",
+    description: "Lorem Ipsum si amet...",
+  },
+  {
+    title: "Segurança e Estabilidade",
+    description: "Lorem Ipsum si amet..."
+  }
+]

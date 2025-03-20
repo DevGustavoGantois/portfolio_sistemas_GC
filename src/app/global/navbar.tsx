@@ -12,12 +12,12 @@ export function Navbar() {
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
-                        <Link href="#">
+                        <Link href="#services">
                         Serviços
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
-                        <Link href="#">
+                        <Link href="#solutions">
                         Soluções
                         </Link>
                     </li>
