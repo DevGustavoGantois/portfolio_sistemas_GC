@@ -102,4 +102,12 @@ export const accordionSolutionsData = [
     title: "Segurança e Estabilidade",
     description: "Lorem Ipsum si amet..."
   }
-]
+];
+
+export const contactData = [
+  {
+    title: "Transforme Sua Ideia em um Produto Digital de Sucesso!",
+    description: "Vamos te ajudar a tirar sua ideia do papel e transformá-la em um produto digital eficiente, escalável e rentável. Nosso objetivo é impulsionar o seu negócio, oferecendo soluções tecnológicas que realmente fazem a diferença. Porque quando você alcança seus objetivos, nós também alcançamos os nossos! ",
+    btnText: "Entrar em contato",
+  },
+];
