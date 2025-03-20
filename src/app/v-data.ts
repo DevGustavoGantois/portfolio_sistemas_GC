@@ -111,3 +111,21 @@ export const contactData = [
     btnText: "Entrar em contato",
   },
 ];
+
+export const carouselRolesData = [
+  {
+    role: "/backend.svg"
+  },
+  {
+    role: "/frontend.svg"
+  },
+  {
+    role: "/db.svg"
+  },
+  {
+    role: "/automacao.svg"
+  },
+  {
+    role: "/designuiux.svg"
+  }
+];
