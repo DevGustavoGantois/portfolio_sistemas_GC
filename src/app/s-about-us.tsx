@@ -18,7 +18,7 @@ export function HomeAboutUs() {
             <main className="flex flex-col gap-20 mt-20 lg:mt-[108px]">
              {aboutGustavo.map((item, index) => {
                 return (
-                    <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 justify-center lg:justify-around" key={index}>
+                    <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 justify-center items-center lg:items-start lg:justify-around" key={index}>
                        <div className="flex flex-col gap-2">
                        <article className="flex flex-col gap-6">
                             <h1 className="text-center lg:text-left font-medium text-3xl lg:text-[40px] text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#999999]">{item.title}</h1>
@@ -33,9 +33,9 @@ export function HomeAboutUs() {
              })}
               {aboutCaique.map((item, index) => {
                 return (
-                    <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 justify-center lg:justify-around" key={index}>
-                        <figure className="text-white text-2xl">
-                            Imagem
+                    <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-0 items-center lg:items-start justify-center lg:justify-around" key={index}>
+                        <figure className="shadow-2xl shadow-blue-800/20">
+                            <Image src={item.img} width={519} height={454} alt="" className="rounded-3xl" />
                         </figure>
                         <div className="flex flex-col gap-2">
                        <article className="flex flex-col gap-6">

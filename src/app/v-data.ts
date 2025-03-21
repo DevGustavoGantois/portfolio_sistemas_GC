@@ -200,6 +200,6 @@ export const aboutCaique = [
   {
     title: "Caique Mendes",
     description: "Atuante no mercado como Desenvolvedor Fullstack, especializado em arquitetura de sistemas e gerenciamento de dados, sou especialista na criação de soluções SaaS, com foco no desenvolvimento de APIs escaláveis, seguras e de alto desempenho. Minha expertise inclui otimização de bancos de dados, implementação de funcionalidades robustas e integração entre sistemas para garantir a integridade, a performance e a segurança das aplicações. Busco sempre alinhar tecnologia e eficiência para oferecer a melhor experiência tanto para os usuários quanto para os desenvolvedores que utilizam minhas soluções.",
-    img: "/CaiqueImg.png",
+    img: "/CaiqueImg.jpg",
   }
 ];
