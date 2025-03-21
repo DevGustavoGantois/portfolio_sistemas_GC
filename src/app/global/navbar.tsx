@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { NavbarMobile } from "./navbar-mobile";
 
 export function Navbar() {
     return (
@@ -49,7 +50,7 @@ export function Navbar() {
                 </Button>
             </nav>
             <div className="flex lg:hidden">
-
+                <NavbarMobile />
             </div>
         </header>
     )
