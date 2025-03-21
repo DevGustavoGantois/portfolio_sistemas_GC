@@ -35,7 +35,7 @@ export function HomeAboutUs() {
                 return (
                     <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-0 items-center lg:items-start justify-center lg:justify-around" key={index}>
                         <figure className="shadow-2xl shadow-blue-800/20">
-                            <Image src={item.img} width={519} height={454} alt="" className="rounded-3xl" />
+                            <Image src={item.img} width={619} height={454} alt="" className="rounded-3xl" />
                         </figure>
                         <div className="flex flex-col gap-2">
                        <article className="flex flex-col gap-6">
