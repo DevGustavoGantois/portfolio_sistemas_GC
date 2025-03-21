@@ -4,7 +4,7 @@ import { Globe } from "lucide-react";
 
 export function HomeProjects() {
     return (
-        <section id="portfolio">
+        <section className="p-8 lg:p-0" id="portfolio">
             <div className="flex items-center flex-col gap-2 mt-20 lg:mt-[200px]">
                 <Pretitle icon={<Globe size={28} className="stroke-[#1D0DB1]" />} pretitle="Nosso portfólio" />
                 <Title title="Projetos desenvolvidos pelas" mark="GC Technology" />
