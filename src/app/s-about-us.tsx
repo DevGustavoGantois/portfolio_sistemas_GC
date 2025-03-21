@@ -21,7 +21,7 @@ export function HomeAboutUs() {
                     <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 justify-center lg:justify-around" key={index}>
                        <div className="flex flex-col gap-2">
                        <article className="flex flex-col gap-6">
-                            <h1 className="text-left font-medium text-2xl lg:text-[40px] text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#999999]">{item.title}</h1>
+                            <h1 className="text-center lg:text-left font-medium text-3xl lg:text-[40px] text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#999999]">{item.title}</h1>
                             <p className="text-center lg:text-left text-gray-500 max-w-[490px]">{item.description}</p>
                         </article>
                        </div>
@@ -39,7 +39,7 @@ export function HomeAboutUs() {
                         </figure>
                         <div className="flex flex-col gap-2">
                        <article className="flex flex-col gap-6">
-                            <h1 className="text-right font-medium text-2xl lg:text-[40px] text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#999999]">{item.title}</h1>
+                            <h1 className="text-center lg:text-right font-medium text-3xl lg:text-[40px] text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#999999]">{item.title}</h1>
                             <p className="text-center lg:text-right text-gray-500 max-w-[490px]">{item.description}</p>
                         </article>
                        </div>    
