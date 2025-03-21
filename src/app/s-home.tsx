@@ -26,12 +26,12 @@ export function HomeHero() {
                                     </p>
                                     <div className="flex items-center gap-2 mt-4">
                                         <Button className="p-6 pr-10 pl-10 mx-auto" variant="secondary" asChild>
-                                            <Link href="" target="_blank">
+                                            <Link href="#services">
                                               {item.btnText}
                                             </Link>
                                         </Button>
                                         <Button className="p-6 pr-10 pl-10 mx-auto" variant="default" asChild>
-                                            <Link href="#portfolio" target="_blank">
+                                            <Link href="#portfolio">
                                                 {item.btnSeconday}
                                             </Link>
                                         </Button>

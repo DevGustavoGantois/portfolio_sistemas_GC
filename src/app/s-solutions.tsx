@@ -6,7 +6,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 export function HomeSolutions() {
   return (
-    <section id="solutions">
+    <section id="solutions" className="mt-20 lg:mt-[100px]">
       <div className="max-w-[1240px] mx-auto p-8 lg:p-0">
         <figure className="flex flex-col gap-4 justify-center items-center lg:items-start">
           <Pretitle
@@ -30,7 +30,7 @@ export function HomeSolutions() {
                     <Accordion type="single" collapsible key={index}>
                       <AccordionItem className="w-full" value="1">
                         <AccordionTrigger className="text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#999999] bg-clip-text">{item.title}</AccordionTrigger>
-                        <AccordionContent className="text-white/50">
+                        <AccordionContent className="text-white/50 max-w-[500px] h-full w-full">
                           {item.description}  
                         </AccordionContent>
                       </AccordionItem>

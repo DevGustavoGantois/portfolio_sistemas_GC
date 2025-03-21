@@ -27,9 +27,9 @@ export function TestimonialsClients() {
           <SwiperSlide
             key={index}
             className="p-4 bg-gradient-to-r from-[#000000] via-[#03001A] to-[#050505] border border-white/15 rounded-2xl lg:p-16 
-                       h-[300px] flex flex-col justify-between items-center text-center lg:items-start lg:text-start shadow-md"
+                       h-[300px] flex flex-col justify-between items-center text-center lg:items-start lg:text-start shadow-2xl shadow-blue-800/10"
           >
-            <p className="text-gray-400 max-w-[500px] flex-1">{item.quote}</p>
+            <p className="text-gray-300 max-w-[500px] flex-1">{item.quote}</p>
             <div className="mt-4 flex flex-col gap-12 items-center justify-center lg:justify-start lg:items-start">
               <h3 className="text-lg text-white font-semibold">{item.name}</h3>
               <span className="text-sm text-white/50 font-light lg:text-xl">{item.title}</span>

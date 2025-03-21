@@ -22,17 +22,22 @@ export function Navbar() {
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
-                        <Link href="#">
+                        <Link href="#portfolio">
                         Portfolio
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
-                        <Link href="#">
+                        <Link href="#testimonials">
+                        Depoimentos
+                        </Link>
+                    </li>
+                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
+                        <Link href="#aboutUs">
                         Sobre nós
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
-                        <Link href="#">
+                        <Link href="#contact">
                         Contato
                         </Link>
                     </li>

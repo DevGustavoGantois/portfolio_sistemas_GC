@@ -22,32 +22,32 @@ export function Footer() {
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-1">
-                        <Link href="#Services">
+                        <Link href="#services">
                         Serviços
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-1">
-                        <Link href="#Solutions">
+                        <Link href="#solutions">
                         Soluções
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-1">
-                        <Link href="#Portfolio">
+                        <Link href="#portfolio">
                         Portfolio
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-1">
-                        <Link href="#Testimonials">
+                        <Link href="#testimonials">
                         Depoimentos
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-1">
-                        <Link href="#AboutUs">
+                        <Link href="#aboutUs">
                         Sobre nós
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-1">
-                        <Link href="#Contact">
+                        <Link href="#contact">
                         Contato
                         </Link>
                     </li>

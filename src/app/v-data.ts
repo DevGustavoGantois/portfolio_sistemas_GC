@@ -88,19 +88,19 @@ export const accordionSolutionsData = [
   },
   {
     title: "Sistemas Escaláveis",
-    description: "Lorem Ipsum si amet..."
+    description: "Projetamos uma arquitetura modular e distribuída, utilizando serviços em nuvem e bancos de dados escaláveis para lidar com crescimento de usuários sem perda de desempenho."
   },
   {
     title: "Conversão e Experiência do Usuário",
-    description: "Lorem Ipsum si amet..."
+    description: "Implementamos um design intuitivo e responsivo, otimizando tempos de carregamento e garantindo uma navegação fluida para aumentar a retenção e conversão de usuários."
   },
   {
     title: "Integração e Conectividade",
-    description: "Lorem Ipsum si amet...",
+    description: "Utilizamos APIs bem documentadas e padrões como REST ou GraphQL para facilitar a comunicação entre sistemas, permitindo interoperabilidade eficiente entre diferentes plataformas e dispositivos.",
   },
   {
     title: "Segurança e Estabilidade",
-    description: "Lorem Ipsum si amet..."
+    description: " Aplicamos práticas como autenticação segura (OAuth, JWT), criptografia de dados e monitoramento contínuo para garantir proteção contra vulnerabilidades e manter a confiabilidade do sistema."
   }
 ];
 
@@ -169,7 +169,7 @@ export const testimonials = [
   {
     quote: "Ficou show Gustavo! O site ficou perfeito e transmitiu o que eu quero passar para os meus clientes!",
     name: "Mônica Aran",
-    title: "",
+    title: "Psicóloga",
   },
   {
     quote: "Trabalhar com Gustavo no Hackathon da FullDev foi essencial para o sucesso do projeto. Como designer UI/UX e desenvolvedor front-end, ele criou uma identidade visual original e de alta qualidade usando React e Next.js. Proativo, comunicativo e dedicado, sua contribuição foi fundamental para conquistarmos o primeiro lugar. Recomendo Gustavo sem dúvida para qualquer desafio!",
@@ -185,5 +185,21 @@ export const testimonials = [
     quote: "Minha sincera gratidão ao Gustavo pelo excelente trabalho como designer e desenvolvedor front-end. Sua criatividade e técnica foram impecáveis. Foi um prazer trabalhar com você e espero colaborarmos novamente no futuro!",
     name: "Gabriel Dias Santiago",
     title: "Desenvolvedor Full Stack",
+  }
+];
+
+export const aboutGustavo = [
+  {
+    title: "Gustavo Gantois",
+    description: "Atuante no mercado como Desenvolvedor Front-end, especializado em UI/UX, sou especialista na criação de sites e sistemas web de todos os tipos, desde landing pages e e-commerces até plataformas complexas e soluções SaaS. Além do desenvolvimento, também atuo na área de design, criando interfaces intuitivas e materiais criativos para redes sociais. Meu foco é sempre aprimorar a experiência do usuário, garantindo usabilidade, acessibilidade e estética alinhadas às melhores práticas do mercado.",
+    img: "/GustavoImg.jpg",
+  }
+];
+
+export const aboutCaique = [
+  {
+    title: "Caique Mendes",
+    description: "Atuante no mercado como Desenvolvedor Fullstack, especializado em arquitetura de sistemas e gerenciamento de dados, sou especialista na criação de soluções SaaS, com foco no desenvolvimento de APIs escaláveis, seguras e de alto desempenho. Minha expertise inclui otimização de bancos de dados, implementação de funcionalidades robustas e integração entre sistemas para garantir a integridade, a performance e a segurança das aplicações. Busco sempre alinhar tecnologia e eficiência para oferecer a melhor experiência tanto para os usuários quanto para os desenvolvedores que utilizam minhas soluções.",
+    img: "/CaiqueImg.png",
   }
 ];

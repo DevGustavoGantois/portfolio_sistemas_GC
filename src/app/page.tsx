@@ -1,5 +1,6 @@
 import { CarouselTechs } from "./c-carousel-techs";
 import { CarouselRoles } from "./global/c-carousel-roles";
+import { HomeAboutUs } from "./s-about-us";
 import { HomeContact } from "./s-contact";
 import { HomeHero } from "./s-home";
 import { HomeProjects } from "./s-projects";
@@ -16,6 +17,7 @@ export default function Page() {
     <HomeSolutions />
     <HomeProjects />
     <HomeTestimonials />
+    <HomeAboutUs />
     <HomeContact />
     <CarouselRoles />
     </>

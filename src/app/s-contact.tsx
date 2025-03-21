@@ -7,7 +7,7 @@ import { Globe } from "lucide-react";
 
 export function HomeContact() {
     return (
-        <section className="max-w-[1240px] mx-auto p-8 lg:p-0 mt-30">
+        <section className="max-w-[1240px] mx-auto p-8 lg:p-0 lg:mt-[200px]" id="contact">
             <div className="relative w-full p-6 lg:p-10 rounded-3xl overflow-hidden">
                 <Image
                     src="/ContactImg.svg"
