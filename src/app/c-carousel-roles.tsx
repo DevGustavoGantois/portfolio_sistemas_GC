@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { carouselRolesData } from "../v-data";
+import { carouselRolesData } from "./v-data";
 
 export function CarouselRoles() {
     return (

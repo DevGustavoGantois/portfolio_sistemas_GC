@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { testimonials } from "../v-data";
+import { testimonials } from "./v-data";
 
 export function TestimonialsClients() {
   return (

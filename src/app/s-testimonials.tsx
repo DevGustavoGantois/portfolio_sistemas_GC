@@ -1,6 +1,7 @@
 import { Pretitle } from "@/components/pretitle";
 import { Globe } from "lucide-react";
-import { TestimonialsClients } from "./global/c-testimonials-clients";
+import { TestimonialsClients } from "./c-testimonials-clients";
+
 
 export function HomeTestimonials() {
     return (
