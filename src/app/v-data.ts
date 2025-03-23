@@ -104,6 +104,131 @@ export const accordionSolutionsData = [
   }
 ];
 
+export const ProjectsDisplayData = [
+  {
+    img: "/MonicaLP.svg",
+    description: "Landing Page website",
+    techs: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "React.JS",
+      "SEO",
+      "AOS Animation",
+    ],
+    btnText: "Acessar site",
+    link: "https://www.psimonicaaran.com.br/"
+  },
+  {
+    img: "/FullDevLP.svg",
+    description: "Sistema de gerenciamento",
+    techs: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "React.JS",
+      "SEO",
+      "AOS Animation",
+    ],
+    btnText: "Acessar site",
+    link: "https://fulldev-seven.vercel.app/?fbclid=PAZXh0bgNhZW0CMTEAAaZTMuQeNDinOGKcBt59yV2zoTk5G0r3EB5lYZB2tXQvOoB4sH5JM1rn0oo_aem__QaWJekN-srZCm1KDCDSzQ"
+  },
+  {
+    img: "/NovasceLP.svg",
+    description: "Landing Page website",
+    techs: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "React.JS",
+      "SEO",
+      "AOS Animation",
+    ],
+    btnText: "Acessar site",
+    link: "https://novasce-website-next-tailwind-css.vercel.app/"
+  },
+  {
+    img: "/DevStreakLP.svg",
+    description: "Landing Page website",
+    techs: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "React.JS",
+      "SEO",
+      "AOS Animation",
+    ],
+    btnText: "Acessar site",
+    link: "https://devstreak.vercel.app/"
+  },
+  {
+    img: "/SpaceBlog.svg",
+    description: "Landing Page website",
+    techs: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "React.JS",
+      "SEO",
+    ],
+    btnText: "Acessar site",
+    link: "https://space-blog-mu.vercel.app/"
+  },
+  {
+    img: "/HayashiLP.svg",
+    description: "Landing Page website",
+    techs: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "SEO",
+    ],
+    btnText: "Acessar site",
+    link: "https://clinicahayashi.app.br/"
+  },
+  {
+    img: "/PerroneLP.svg",
+    description: "Landing Page website",
+    techs: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "React.JS",
+      "SEO",
+      "AOS Animation",
+    ],
+    btnText: "Acessar site",
+    link: "https://www.rafaelperrone.com.br/"
+  },
+  {
+    img: "/MauricioLP.svg",
+    description: "Landing Page website",
+    techs: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "React.JS",
+      "SEO",
+      "Framer motion",
+    ],
+    btnText: "Acessar site",
+    link: "https://msampaio-adv.vercel.app/"
+  },
+  {
+    img: "/SamuelLP.svg",
+    description: "Landing Page website",
+    techs: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "SEO",
+      "AOS Animation",
+    ],
+    btnText: "Acessar site",
+    link: "https://lp-sf-team-consultoria.vercel.app/"
+  },
+];
+
 export const contactData = [
   {
     title: "Transforme Sua Ideia em um Produto Digital de Sucesso!",
