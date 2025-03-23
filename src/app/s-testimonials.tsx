@@ -6,7 +6,7 @@ import { TestimonialsClients } from "./c-testimonials-clients";
 export function HomeTestimonials() {
     return (
         <section className="p-8 lg:p-0">
-             <figure className="flex flex-col gap-4 justify-center items-center lg:items-start max-w-[1440px] mx-auto lg:mb-40 lg:mt-[211px]">
+             <figure className="flex flex-col gap-4 justify-center items-center lg:items-start max-w-[1440px] mx-auto lg:mb-40 lg:mt-[211px]" data-aos="fade-up">
           <Pretitle
             icon={<Globe className="stroke-[#1D0DB1]" size={28} />}
             pretitle="Nossas Soluções"

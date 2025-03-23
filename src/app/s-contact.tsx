@@ -18,7 +18,7 @@ export function HomeContact() {
                     priority
                 />
                 <div className="absolute bg-gradient-to-r from-[#0C054B]/80 via-[#15097E] to-[#1D0DB1]" />
-                <div className="relative flex flex-col items-center text-center gap-6">
+                <div className="relative flex flex-col items-center text-center gap-6" data-aos="fade-down">
                     <Pretitle icon={<Globe className="stroke-white" width={28} />} pretitle="Entre em contato" />
                     {contactData.map((item, index) => (
                         <div key={index} className="flex flex-col items-center gap-4">

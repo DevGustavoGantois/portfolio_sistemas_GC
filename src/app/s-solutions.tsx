@@ -8,7 +8,7 @@ export function HomeSolutions() {
   return (
     <section id="solutions" className="mt-20 lg:mt-[100px]">
       <div className="max-w-[1240px] mx-auto p-8 lg:p-0">
-        <figure className="flex flex-col gap-4 justify-center items-center lg:items-start">
+        <figure className="flex flex-col gap-4 justify-center items-center lg:items-start" data-aos="fade-down">
           <Pretitle
             icon={<Globe className="stroke-[#1D0DB1]" size={28} />}
             pretitle="Nossas Soluções"

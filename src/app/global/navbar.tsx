@@ -7,37 +7,37 @@ export function Navbar() {
         <header className="max-w-[1240px] mx-auto p-8 lg:p-0 lg:mt-4 border-b border-white/15">
             <nav className="hidden lg:flex items-center justify-around mb-[20px]">
                 <ul className="flex items-center lg:gap-[32px]">
-                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
+                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2" data-aos="fade-down">
                         <Link href="#home">
                         Home
                         </Link>
                     </li>
-                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
+                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2" data-aos="fade-down" data-aos-delay="200">
                         <Link href="#services">
                         Serviços
                         </Link>
                     </li>
-                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
+                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2" data-aos="fade-down" data-aos-delay="300">
                         <Link href="#solutions">
                         Soluções
                         </Link>
                     </li>
-                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
+                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2" data-aos="fade-down" data-aos-delay="400">
                         <Link href="#portfolio">
                         Portfolio
                         </Link>
                     </li>
-                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
+                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2" data-aos="fade-down" data-aos-delay="500">
                         <Link href="#testimonials">
                         Depoimentos
                         </Link>
                     </li>
-                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
+                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2" data-aos="fade-down" data-aos-delay="600">
                         <Link href="#aboutUs">
                         Sobre nós
                         </Link>
                     </li>
-                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2">
+                    <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-2" data-aos="fade-down" data-aos-delay="700">
                         <Link href="#contact">
                         Contato
                         </Link>

@@ -7,7 +7,7 @@ import { Title } from "@/components/title";
 export function HomeServices() {
     return (
         <section className="max-w-[1440px] mx-auto p-8 lg:p-0 mt-20 lg:mt-[100px]" id="services">
-            <div className="flex items-center justify-center flex-col gap-4">
+            <div className="flex items-center justify-center flex-col gap-4" data-aos="flip-up">
                 <Pretitle icon={<Globe width={28} className="stroke-[#1D0DB1]" />} pretitle="Nossos Serviços" />
                 <Title title="Serviços que temos a oferecer na" mark="GC Technology" />
             </div>
