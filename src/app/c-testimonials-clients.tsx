@@ -26,8 +26,8 @@ export function TestimonialsClients() {
         {testimonials.map((item, index) => (
           <SwiperSlide
             key={index}
-            className="p-4 bg-gradient-to-r from-[#000000] via-[#03001A] to-[#050505] border border-white/15 rounded-2xl lg:p-16 
-                       h-[300px] flex flex-col justify-between items-center text-center lg:items-start lg:text-start shadow-2xl shadow-blue-800/10"
+            className="p-4 bg-gradient-to-r from-[#000000] via-[#03001A] to-[#050505] border border-white/15 rounded-2xl lg:p-20
+                       h-[700px] flex flex-col justify-between items-center text-center lg:items-start lg:text-start shadow-2xl shadow-blue-800/10"
           >
             <p className="text-gray-300 max-w-[500px] flex-1">{item.quote}</p>
             <div className="mt-4 flex flex-col gap-12 items-center justify-center lg:justify-start lg:items-start">

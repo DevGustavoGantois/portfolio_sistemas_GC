@@ -45,7 +45,7 @@ export const carouselTecIconsData = [
 export const items = [
         {
           title: "Sistemas Robustos",
-          description: "Desenvolvemos e implementamos soluções tecnológicas de alta performance, seguras e escaláveis. Criamos softwares personalizados e otimizamos infraestruturas digitais, garantindo eficiência, estabilidade e proteção contra falhas para empresas que buscam crescer com segurança.",
+          description: "Desenvolvemos soluções tecnológicas de alta performance, seguras e escaláveis. Criamos softwares personalizados e otimizamos infraestruturas digitais para garantir eficiência, estabilidade e segurança no crescimento das empresas.",
           img: "/SistemasRobustosImg.svg"
         },
         {
@@ -61,7 +61,7 @@ export const items = [
         {
           title: "Criação de APIs",
           description:
-            "Desenvolvemos APIs seguras e escaláveis para integrar sistemas, facilitar a comunicação entre plataformas e otimizar processos, garantindo alto desempenho e confiabilidade.",
+            "Criamos APIs seguras e escaláveis para integrar sistemas com alto desempenho.",
           img: "/CriacaoAPIsImg.svg"
         },
         {
@@ -76,7 +76,7 @@ export const items = [
         },
         {
           title: "Desenvolvimento de SaaS",
-          description: "Desenvolvemos soluções SaaS escaláveis e seguras, oferecendo softwares na nuvem com alta performance, usabilidade intuitiva e integrações eficientes para otimizar negócios.",
+          description: "Desenvolvemos soluções SaaS na nuvem, seguras e intuitivas, para otimizar negócios.",
           img: "/DevSaasImg.svg"
         },
       ];
@@ -185,6 +185,11 @@ export const testimonials = [
     quote: "Minha sincera gratidão ao Gustavo pelo excelente trabalho como designer e desenvolvedor front-end. Sua criatividade e técnica foram impecáveis. Foi um prazer trabalhar com você e espero colaborarmos novamente no futuro!",
     name: "Gabriel Dias Santiago",
     title: "Desenvolvedor Full Stack",
+  },
+  {
+    quote: "Irmão, gostei muito do seu trabalho, muito solicito desde o ínicio até o final do desenvolvimento do meu site, muito obrigado mesmo, o seu trabalho é show!",
+    name: "Rafael Perrone",
+    title: "Nutricionista",
   }
 ];
 
