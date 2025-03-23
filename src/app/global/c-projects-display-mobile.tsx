@@ -3,14 +3,13 @@ import { ProjectsDisplayData } from "../v-data";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-export function ProjectsDisplay() {
+export function ProjectsDisplayMobile() {
     return (
-        <main className="overflow-hidden p-6 lg:p-8 lg:mt-[50px] lg:mb-12 w-full">
-            <div className="slideCarousel flex gap-6 whitespace-nowrap">
+        <div className="flex items-center justify-center flex-wrap gap-6">
                 {ProjectsDisplayData.map((item, index) => (
                     <div
                         key={index}
-                        className="p-6 bg-gradient-to-r from-[#000000] via-[#03001A] to-[#050505] border border-white/15 rounded-2xl lg:p-10 w-[320px] lg:w-[550px] flex-shrink-0"
+                        className="p-6 bg-gradient-to-r from-[#000000] via-[#03001A] to-[#050505] border border-white/15 rounded-2xl lg:p-10  "
                     >
                         <div className="flex flex-col gap-6">
                             <div className="w-full h-auto">
@@ -49,6 +48,5 @@ export function ProjectsDisplay() {
                     </div>
                 ))}
             </div>
-        </main>
-    );
+    )
 }

@@ -1,7 +1,8 @@
 import { Pretitle } from "@/components/pretitle";
 import { Title } from "@/components/title";
 import { Globe } from "lucide-react";
-import { ProjectsDisplay } from "./global/c-projects-display";
+import { ProjectsDisplayDesktop } from "./global/c-projects-display-desktop";
+import { ProjectsDisplayMobile } from "./global/c-projects-display-mobile";
 
 export function HomeProjects() {
     return (
@@ -10,8 +11,11 @@ export function HomeProjects() {
                 <Pretitle icon={<Globe size={28} className="stroke-[#1D0DB1]" />} pretitle="Nosso portfólio" />
                 <Title title="Projetos desenvolvidos pelas" mark="GC Technology" />
             </div>
-            <main className="mt-20">
-                <ProjectsDisplay />
+            <main className="mt-20 hidden lg:flex">
+                <ProjectsDisplayDesktop />
+            </main>
+            <main className="mt-20 flex items-center justify-center lg:hidden">
+                <ProjectsDisplayMobile />
             </main>
         </section>
     )
