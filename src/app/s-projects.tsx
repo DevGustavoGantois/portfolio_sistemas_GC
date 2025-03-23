@@ -1,8 +1,8 @@
 import { Pretitle } from "@/components/pretitle";
 import { Title } from "@/components/title";
 import { Globe } from "lucide-react";
-import { ProjectsDisplayDesktop } from "./global/c-projects-display-desktop";
-import { ProjectsDisplayMobile } from "./global/c-projects-display-mobile";
+import { ProjectsDisplayDesktop } from "./c-projects-display-desktop";
+import { ProjectsDisplayMobile } from "./c-projects-display-mobile";
 
 export function HomeProjects() {
     return (

@@ -1,3 +1,4 @@
+import { ButtonTop } from "./c-button-fixed-for-top";
 import { CarouselRoles } from "./c-carousel-roles";
 import { CarouselTechs } from "./c-carousel-techs";
 import { HomeAboutUs } from "./s-about-us";
@@ -20,6 +21,7 @@ export default function Page() {
     <HomeAboutUs />
     <HomeContact />
     <CarouselRoles />
+    <ButtonTop />
     </>
   );
 }

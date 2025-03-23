@@ -54,7 +54,7 @@ export function NavbarMobile() {
                 </ul>
                 <div className="flex justify-center items-center mt-4">
                 <Button className="p-6 w-[250px]" variant="default" asChild>
-                    <Link href="" target="_blank">
+                    <Link href="https://wa.me/5571999588246?text=Olá%2C%20espero%20que%20voc%C3%AA%20esteja%20bem.%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20os%20servi%C3%A7os%20de%20voc%C3%AA%28s%29.%20Aguardo%20o%20seu%20retorno%2E" target="_blank">
                     Faça seu orçamento!
                     </Link>
                 </Button>

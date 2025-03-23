@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { ProjectsDisplayData } from "../v-data";
+import { ProjectsDisplayData } from "./v-data";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 

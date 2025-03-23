@@ -93,23 +93,23 @@ export function Footer() {
                 <ul className=" flex flex-col items-center lg:items-start justify-center gap-2">
                     <h1 className="text-white text-2xl font-medium mb-3">Social</h1>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-1">
-                        <Link href="" target="_blank">
+                        <Link href="https://www.instagram.com/devgustavogantois_/" target="_blank">
                         Instagram
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-1">
-                        <Link href="" target="_blank">
+                        <Link href="https://wa.me/5571999588246?text=Olá%2C%20espero%20que%20voc%C3%AA%20esteja%20bem.%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20os%20servi%C3%A7os%20de%20voc%C3%AA%28s%29.%20Aguardo%20o%20seu%20retorno%2E" target="_blank">
                         Whatsapp
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-1">
-                        <Link href="" target="_blank">
-                        Linkedin
+                        <Link href="https://www.linkedin.com/in/gustavo-gantois-2839b5168/" target="_blank">
+                        Linkedin (Gustavo)
                         </Link>
                     </li>
                     <li className="text-white/50 transition-all duration-700 hover:text-white hover:-translate-y-1">
-                        <Link href="" target="_blank">
-                        Facebook
+                        <Link href="https://www.linkedin.com/in/caiquemendev/" target="_blank">
+                        Linkedin (Caique)
                         </Link>
                     </li>
                 </ul>
@@ -117,7 +117,7 @@ export function Footer() {
             <div className="border-t-1 border-white/20 mt-10 mb-6">
                 <div className="flex flex-col lg:flex-row text-center lg:text-start gap-2 items-center justify-between mt-6">
                     <p className="text-white text-sm lg:text-base">@2025 Todos os Direitos Reservados. <span className="font-medium"> GC Technology</span></p>
-                    <Link className="text-white text-sm lg:text-base transition-all duration-700 hover:scale-[1.1]" href="" target="_blank">
+                    <Link className="text-white text-sm lg:text-base transition-all duration-700 hover:scale-[1.1]" href="https://www.instagram.com/devgustavogantois_/" target="_blank">
                     Desenvolvido por @devgustavogantois_ | @ca_.mendes
                     </Link>
                 </div>
