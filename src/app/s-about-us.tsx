@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export function HomeAboutUs() {
     return (
-        <section className="max-w-[1440px] p-8 lg:p-0 mx-auto mt-20 lg:mt-[100px]" id="aboutUs">
+        <section className="max-w-[1440px] p-8 lg:p-0 mx-auto -mt-40 lg:mt-[100px]" id="aboutUs">
             <div className="flex flex-col items-center justify-center gap-3">
                 <Pretitle icon={<Globe size={28} className="stroke-[#1D0DB1]" />} pretitle="Conheça um pouco" />
                 <Title title="Sobre" mark="nós" />
