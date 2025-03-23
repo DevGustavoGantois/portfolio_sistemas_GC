@@ -11,7 +11,7 @@ export function NavbarMobile() {
                 <SheetTrigger>
                     <Menu size={32} className="text-[#1D0DB1]"  />
                 </SheetTrigger>
-                <SheetContent side="top" className="h-[80vh]">
+                <SheetContent side="top" className="h-[100vh]">
                 <ul className="flex flex-col items-center justify-center gap-8 mt-20">
                     <div className="mb-10">
                      <DialogTitle className="bg-clip-text text-4xl h-[80px] text-transparent bg-gradient-to-r from-[#FFFF] to-[#9999]"><span className="text-[#1D0DB1]">GC </span> Technology</DialogTitle>
